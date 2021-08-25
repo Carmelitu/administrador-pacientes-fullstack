@@ -1,9 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes');
+const cors = require('cors');
 
 // Crear el servidor
 const app = express();
+
+// Habilitar CORS
+app.use(cors());
 
 // Conectar a MongoDB
 mongoose.Promise = global.Promise;
