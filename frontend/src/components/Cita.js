@@ -20,9 +20,7 @@ const Cita = (props) => {
                 props.history.push('/');
                 
             })
-            .catch(error => console.log(error));
-
-        
+            .catch(error => console.log(error));        
     }
 
     return ( 

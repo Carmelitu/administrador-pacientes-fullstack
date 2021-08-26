@@ -1,0 +1,14 @@
+{
+  "name": "fullstack-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Lucas Seijo",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.2.2"
+  }
+}
